@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+@SuppressWarnings("unused")
 @WebFilter("")
 public class AnnotationFilter implements Filter {
     @Override

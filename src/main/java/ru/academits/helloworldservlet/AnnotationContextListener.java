@@ -4,6 +4,7 @@ import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
 
+@SuppressWarnings("unused")
 @WebListener
 public class AnnotationContextListener implements ServletContextListener {
     @Override
