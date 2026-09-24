@@ -1,4 +1,4 @@
-package ru.academits.HelloWorldServlet;
+package ru.academits.helloworldservlet;
 
 import jakarta.servlet.ServletRequestEvent;
 import jakarta.servlet.ServletRequestListener;

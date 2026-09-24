@@ -7,16 +7,16 @@
     <display-name>Archetype Created Web Application</display-name>
 
     <listener>
-        <listener-class>ru.academits.HelloWorldServlet.XmlRequestListener</listener-class>
+        <listener-class>ru.academits.helloworldservlet.XmlRequestListener</listener-class>
     </listener>
 
     <filter>
-        <filter-name>ru.academits.HelloWorldServlet.XmlFilter</filter-name>
-        <filter-class>ru.academits.HelloWorldServlet.XmlFilter</filter-class>
+        <filter-name>ru.academits.helloworldservlet.XmlFilter</filter-name>
+        <filter-class>ru.academits.helloworldservlet.XmlFilter</filter-class>
     </filter>
 
     <filter-mapping>
-        <filter-name>ru.academits.HelloWorldServlet.XmlFilter</filter-name>
+        <filter-name>ru.academits.helloworldservlet.XmlFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 </web-app>
